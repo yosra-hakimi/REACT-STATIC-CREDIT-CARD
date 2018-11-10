@@ -1,0 +1,113 @@
+body {
+  background-color: black;
+}
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+}
+
+.creditCard {
+  border: 2px solid white;
+  border-radius: 20px;
+  /* max-width: max-content; */
+  width: 1200px;
+  height: 600px;
+  margin-top: 30px;
+  margin-left: 80px;
+  background-image: url("http://images.crestock.com/1970000-1979999/1973303-xs.jpg");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+h1 {
+  color: white;
+  font-size: 80px;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 100px;
+}
+.numbers {
+  color: #deb887;
+  font-weight: bold;
+  font-size: 40px;
+  margin-left: 80px;
+  /* border:1px solid; */
+  width: 700px;
+  background-color: rgba(255, 255, 0, 0.288);
+  letter-spacing: 4px;
+  font: 50px/1 "Iceland", monospace;
+  display: flex;
+  justify-content: space-around;
+}
+.number {
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+}
+.bb {
+  display: flex;
+  justify-content: space-around;
+  /* border:2px solid black; */
+  margin-top: -20px;
+}
+svg {
+  color: white;
+  width: 20px;
+  height: 40px;
+  /* border:1px solid black; */
+  margin-top: 10px;
+  margin-right:5px;
+  
+}
+.validthru {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60px;
+  height: 50px;
+  /* border: 1px solid black; */
+  color: white;
+  font-size: 20px;
+  margin-top:5px;
+
+}
+.align {
+  display: flex;
+  /* border:2px solid red;  */
+  padding-left: 220px;
+}
+.monthYear {
+  color: white;
+  font-size: 19px;
+  width: 770px;
+  margin-top: -30px;
+ 
+  display: flex;
+  justify-content: flex-end;
+}
+.puce {
+  width: 150px;
+  height:120px;
+  margin-left: 100px;
+  margin-top: -50px;
+  margin-bottom:-25px;
+}
+
+.masterCard {
+  width: 170px;
+  height: 200px;
+  margin-top: -50px;
+}
+.after-arrow {
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+}
+h3 {
+  color: white;
+  font-size: 40px;
+  margin-top: -60px;
+  margin-left: 70px;
+}
